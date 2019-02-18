@@ -1,0 +1,7 @@
+herosearch:
+  css:
+    theme:
+      css/herosearch.css: {}
+  js:
+    js/herosearch.js: {}
+

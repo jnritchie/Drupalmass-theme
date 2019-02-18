@@ -1,0 +1,5 @@
+name: Featured Services Block
+description: Featured Services Block
+core: 8.x
+package: EXLabs Custom Module
+type: module

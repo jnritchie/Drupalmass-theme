@@ -1,0 +1,7 @@
+footer:
+  css:
+    theme:
+      css/footer.css: {}
+  js:
+    js/footer.js: {}
+

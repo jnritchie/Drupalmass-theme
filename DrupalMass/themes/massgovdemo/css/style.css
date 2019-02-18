@@ -1,0 +1,81 @@
+/** Externals **/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+	color:#141414;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/** Bootstrap Overrides **/
+
+body {
+	margin-top: 0px;
+	overflow-x: hidden;
+}
+
+.topnav {
+	background-color: #14558f;
+	color:#fff;
+	padding:10px 15px;
+}
+
+.right{
+	float:right;
+}
+
+.toplinks {
+	float:right;
+	margin-right: 20px;
+}
+
+.toplinks a {
+	color:#fff;
+}
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 0px;
+	border: 0px;
+	padding:20px;
+	background:#fff;
+}
+
+
+.main-container, .footer {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.killmargin {
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+.footer {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+@media (min-width: 500px) {
+	.col-sm-12 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+
+/** Styles **/
+
+
+.navbar-nav {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 600;
+    letter-spacing: 2px;
+}
+

@@ -1,0 +1,9 @@
+blogpreview:
+  css:
+    theme:
+      css/blogpreview.css: {}
+      /libraries/slick/slick.css: {}
+  js:
+    js/blogpreview.js: {}
+    /libraries/slick/slick.js: {}
+

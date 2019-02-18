@@ -1,0 +1,30 @@
+<div class="blogpreview_container">
+	<div class="blogpreview_mainTitle_container container">
+		<div class="row">
+			<div class="blogpreview_mainTitle">
+				<h3>News &amp; Updates</h3>
+			</div>
+			<hr class="breaker" style="margin-left: 0;border-color:rgb(56, 133, 87);">
+		</div>
+	</div>
+
+	<div class="blogpreview_content_container container">
+		<div class="blogpreview_content_slider row">
+	        {% for blog_post in data_array %}
+	        	<div class="blogpreview_post_box col-md-4">
+	        		<div class="blogpreview_post_img">
+	        			<img src="{{ blog_post.image }}" style="width:100%;" />
+	        		</div>
+	        		<!-- div class="blogpreview_post_date">{{ blog_post.published }}</div -->
+	        		<a href="{{ blog_post.link  }}"><div class="blogpreview_post_title">{{ blog_post.title  }}</div></a>
+	        		<div class="blogpreview_post_body" >{{ blog_post.body }}</div>
+	        		<div class="blogpreview_post_fade" ></div>
+	        		<!-- div class="blogpreview_post_readmore" >
+	        			<a href="{{ blog_post.link  }}"><div class="blogpreview_post_readmore_text">Find Out More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></div></a>
+	        		</div -->
+	        	</div>
+	        {% endfor %}
+	    </div>
+	</div>
+
+</div><!-- END: blogpreview_container -->

@@ -1,0 +1,31 @@
+/* I don't like to start on the first two lines for CSS, just cause. */
+
+.breaker {
+	border-top: 3px solid yellow;
+    width: 100px
+}
+
+/** Module Styles **/
+
+.featured-services-block {
+	padding:100px 0!important;
+}
+
+.service-item {
+	padding:5px;
+}
+
+.service-item-inner {
+	font-size: 20px;
+	font-weight: 600;
+	color:#14558f;
+	padding:20px;
+	background-color: #e8eef4;
+    border-color: #8aaac7;
+    -webkit-box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.25);
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.25);
+}
+
+.service-item-inner:hover {
+	text-decoration: underline;
+}

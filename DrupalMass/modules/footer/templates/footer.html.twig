@@ -1,0 +1,74 @@
+<div class="footer">
+    <div class="footer-center container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer-col-title">
+                    <h2>Logo</h2>
+                </div>
+                <p><a href="#" target="_blank">address</a></p>
+                <div class="footer-social" style="display:none;">
+                    <div class="footer-social-div">
+                        <a alt="Facebook" title="Our Facebook Page" target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </div>                
+                    <div class="footer-social-div">
+                        <a alt="Twitter" title="Our Twitter Feed" target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </div>                
+                    <div class="footer-social-div">
+                        <a alt="Youtube" title="Youtube" target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </div>                
+                    <div class="footer-social-div">
+                        <a alt="Instagram" title="Instagram" target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div><!-- Footer Social -->
+                <p>© 2019 Commonwealth of Drupal.
+                Info about copyright or something else important. Notes on Service Mark..</p>
+            </div>
+            
+            <div class="col-md-3">
+                <!-- div class="footer-col-title">
+                    <h4>Menu</h4>
+                </div -->
+                <ul>
+                {% for this_menu in menu_array %}
+                    <li>
+                        <a class="footer-link" href="{{ this_menu.url }}">{{ this_menu.title }}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+    
+            </div>
+
+            <div class="col-md-3">
+                <ul>
+                    <li class=""><a class="footer-link"href="/privacy">Site Policy</a></li>
+                    <li class=""><a class="footer-link" href="/accessibility">Your Giv</a></li>
+                    <li class=""><a class="footer-link" href="/terms">Terms of Use</a></li>
+                    <li class=""><a class="footer-link" href="/fairhousing">Records</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <ul>
+                    <li class=""><a class="footer-link" href="/privacy">Feedback</a></li>
+                </ul>
+            </div>
+    
+        </div><!-- Row end -->
+
+        <div class="" style="clear:left;"></div>
+
+    </div>
+    <!-- div style="max-width:1100px; margin:0 auto;text-align:center;">
+
+        Copyright &copy; {{ "now"|date("Y") }}. Demo   . All Rights Reserved.<br/>
+    
+    </div -->
+</div>

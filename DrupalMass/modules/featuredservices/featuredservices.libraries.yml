@@ -1,0 +1,7 @@
+featuredservices:
+  css:
+    theme:
+      css/featuredservices.css: {}
+  js:
+    js/featuredservices.js: {}
+

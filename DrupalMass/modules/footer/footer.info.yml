@@ -1,0 +1,8 @@
+name: Footer
+description: Footer
+core: 8.x
+package: EXLabs Custom Module
+dependencies:
+- node
+- block
+type: module

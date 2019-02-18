@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    component:
+      css/font-awesome.min.css: {}
+      css/style.css: {}
+
+  js:
+    https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js: {}
+    js/functions.js: {}

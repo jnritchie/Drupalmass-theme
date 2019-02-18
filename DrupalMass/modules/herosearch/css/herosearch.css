@@ -1,0 +1,86 @@
+/* I don't like to start on the first two lines for CSS, just cause. */
+
+.breaker {
+	border-top: 3px solid yellow;
+    width: 100px
+}
+
+/** Bootsrap **/
+
+.input-group {
+	display: inline!important;
+}
+
+.input-group-btn {
+	display:inline!important;
+}
+
+.btn {
+    color: #000;
+    padding: 19px!important;
+}
+
+/** Module Styles **/
+
+.hero-search-block {
+	position: relative;
+	padding:100px 0;
+	background-image:url('https://picsum.photos/2000?image=1018');
+	background-color: #ccc; /*fallback */
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hero-search-block:before {
+	content: "";
+	position: absolute;
+	width:100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background-color: rgba(43, 43, 43, 0.5);
+
+}
+
+.hero-search-block-intro {
+	color:#fff;
+}
+
+.hero-search-block-intro h1 {
+	font-size: 4em;
+    font-weight: 100;
+    color:#fff;
+    margin-bottom: 30px;
+}
+
+.hero-search-block-intro h4 {
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+.hero-search-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px 20px 22px;
+    background-color: #ffffffab;
+    border: none;
+}
+
+.hero-popular-search {
+	position: relative;
+	color:#fff;
+	width:100%;
+	max-width: 900px;
+	margin:auto!important;
+	font-size: 18px;
+    font-weight: 100;
+}
+
+.hero-popular-search h3 {
+	color:#fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 50px;
+    letter-spacing: 2px;
+}
