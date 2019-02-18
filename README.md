@@ -1,9 +1,9 @@
-# Drupalmass-theme: A custom bootstrap sub-theme [Basic Setup]
-A sub theme based on bootstrap + modules
+# Drupalmass-theme: Custom theme build
+A sub theme based on bootstrap + custom modules to mirror - mass.gov
 
-*database dump not needed, everything you need is in theme & module files. setup guide will provide the rest*
+*Database dump not needed, everything you need is in theme & module files. setup guide will provide the rest*
 
-*can also use image shared from digital ocean to recreate demo*
+*Can also use image shared from digital ocean to recreate demo*
 
 # Setup Guide
 
