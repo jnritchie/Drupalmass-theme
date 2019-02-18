@@ -5,4 +5,6 @@ A sub theme based on bootstrap + modules
 
 *can also use image shared from digital ocean to recreate demo*
 
-*updating*
+#Setup Guide
+
+*updating...*
