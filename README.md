@@ -39,8 +39,11 @@ You would modifiy these files if you want change structure of over theme layouts
 
 This is where a tutorial is necessary. However, simply put to do this you will need to 
 a) create a content type and setup your fields appropriately
+
 b) You will need to call this content type node in the module block file and create an array
+
 c) Reference this array in the .module file of the custom module that you want the content to show in
+
 d) Modify html.twig file of that module inorder to diplay the fields you created in your custom content type.
 
 This way instead of hard coding content into modules you can add/update content in your modules via drupal CMS.
